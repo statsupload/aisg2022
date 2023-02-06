@@ -11,7 +11,7 @@
 
 
 # Our solution approach
-1a. what has been done ? A search on what has been published in reports/journals/papers. 
+1a. what have been done ? A search on what has been published in reports/journals/papers. 
 - https://arxiv.org/abs/2210.01325 - Automated Medical Device Display Reading Using Deep Learning Object Detection
 - https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/510ad293-7734-4f6c-b4ad-afb5e81aceac/content - The Application of Image Recognition and Machine Learning to Capture Readings of Traditional Blood Pressure Devices
 - https://pubmed.ncbi.nlm.nih.gov/31679409/ - Automated method for detecting and reading seven-segment digits from images of blood glucose metres and blood pressure monitors
@@ -21,7 +21,7 @@
 - not exactly, there were images, but some of the above methods are convoluted.
 - nothing reproducible we can leverage on.
 
-2. use OCR ?
+2. can we just use OCR ?
 - we made use of HF to check if popular OCRs can detect digits from LCD displays
 https://huggingface.co/spaces/Loren/Streamlit_OCR_comparator
 - the output clearly showed that OCR cannot detect the digits
@@ -30,7 +30,7 @@ https://huggingface.co/spaces/Loren/Streamlit_OCR_comparator
 - upon further investigation, we found out that these digits are known an 7 segment numbers, used in many LCD displays.
 
 
-3. dataset
+3. dataset for model training ?
 - we reckon we need about 1,000 images for train/test. hence we looked at kaggle, HF
 - kaggle - https://www.kaggle.com/datasets/dataclusterlabs/bp-monitor-reading-medical-device-images
 - roboflow - https://universe.roboflow.com/phils-workspace/digits-coi4f/dataset/3
@@ -52,4 +52,4 @@ measurements from his fitness/rowing machine. Even though it is not a health mea
 - write the 2 page project overview.
 - 1 min youtube video
 
-Thank you AI Singapore for organizing this event ! So much learned ! So much more to learn !
+Thank you AI Singapore for organizing this event ! So much learned ! So much more to learn ! (:
