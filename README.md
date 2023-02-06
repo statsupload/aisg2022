@@ -37,9 +37,17 @@ https://huggingface.co/spaces/Loren/Streamlit_OCR_comparator
 - by chance, we look at roboflow and they have a well curated lists of datasets. we came across this digits dataset that the author used to train a model to read
 measurements from his fitness/rowing machine. Even though it is not a health measurement device, we speculated that perhaps the model can be used. 
 - Indeed, its possible 
-!![pkd-1](https://user-images.githubusercontent.com/124442719/216892447-9d3ad2b5-669f-4732-afef-08acc620785e.jpg)
+![pkd-1](https://user-images.githubusercontent.com/124442719/216892447-9d3ad2b5-669f-4732-afef-08acc620785e.jpg)
 
+# All of the above took 2.5 weeks and we are left with 1.5 weeks to do all the tasks below
 
-# Others
+4. our solution
+- we wanted to have a solution that integrates and leverage on PeekingDuck's software framework. 
+- we took time to understand how the software works and read every single inch of the documentation.
+- we had to figure out how to train a yolov5 CV model. 
+- after getting a trained model, our first stop was to get the it integrated using PKD cli for batch mode inference.
+- once we got that sorted out, we had to work on a simple web app for real time inference.
+- write the 2 page project overview.
+- 1 min youtube video
 
-
+Thank you AI Singapore for organizing this event ! So much learned ! So much more to learn !
