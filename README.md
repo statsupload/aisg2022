@@ -17,9 +17,10 @@
 - https://pubmed.ncbi.nlm.nih.gov/31679409/ - Automated method for detecting and reading seven-segment digits from images of blood glucose metres and blood pressure monitors
 - https://pubmed.ncbi.nlm.nih.gov/29854226/ - Utilizing Smartphone-Based Machine Learning in Medical Monitor Data Collection: Seven Segment Digit Recognition
 
-1b. are ther datasets that we can use and test ?
-- not exactly, there were images, but some of the above methods are convoluted.
-- nothing reproducible we can leverage on.
+1b. are there sufficient datasets that we can use and test ?
+- not exactly, there were images of blood pressure monitoring devices but insufficient. 
+- some of the above methods were difficult to understand.
+- nothing we could reproduce and extend.
 
 2. can we just use OCR ?
 - we made use of HF to check if popular OCRs can detect digits from LCD displays
