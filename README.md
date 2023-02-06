@@ -36,10 +36,11 @@ https://huggingface.co/spaces/Loren/Streamlit_OCR_comparator
 
 - by chance, we look at roboflow and they have a well curated lists of datasets. we came across this digits dataset that the author used to train a model to read
 measurements from his fitness/rowing machine. Even though it is not a health measurement device, we speculated that perhaps the model can be used. 
-- Indeed, its possible 
+- Indeed, its possible
+
 ![pkd-1](https://user-images.githubusercontent.com/124442719/216892447-9d3ad2b5-669f-4732-afef-08acc620785e.jpg)
 
-# All of the above took 2.5 weeks and we are left with 1.5 weeks to do all the tasks below
+# All of the above activities took 2.5 weeks and we are left with 1.5 weeks to do all the tasks below
 
 4. our solution
 - we wanted to have a solution that integrates and leverage on PeekingDuck's software framework. 
